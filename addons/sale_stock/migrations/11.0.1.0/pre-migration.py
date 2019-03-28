@@ -63,5 +63,5 @@ def update_stock_move_field_from_procurement_order(env):
 @openupgrade.migrate(use_env=True)
 def migrate(env, version):
     # update_stock_move_field_from_procurement_order(env)
-    update_procurement_field_from_sale(env)
-    update_picking_sale_related(env)
+    # update_procurement_field_from_sale(env)
+    # update_picking_sale_related(env)
