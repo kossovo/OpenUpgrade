@@ -65,3 +65,4 @@ def migrate(env, version):
     # update_stock_move_field_from_procurement_order(env)
     # update_procurement_field_from_sale(env)
     # update_picking_sale_related(env)
+    pass
